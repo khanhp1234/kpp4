@@ -1,0 +1,525 @@
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {    
+	margin: 0;    
+	padding: 0;    
+	outline: 0;    
+	font-size: 100%;    
+	vertical-align: baseline;    
+	background: transparent;
+}
+img{
+	border:none;
+}
+p img{
+	float:none !important;
+}
+
+body {    
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+ol, ul {    
+	list-style: none;
+}
+blockquote, q {    
+	quotes: none;
+}
+blockquote:before, blockquote:after,q:before, q:after {    
+	content: '';    
+	content: none;
+} /* remember to define focus styles! */
+:focus {    
+	outline: 0;
+} /* remember to highlight inserts somehow! */
+ins, a {    
+	text-decoration: none;
+}
+del {    
+	text-decoration: line-through;
+} /* tables still need 'cellspacing="0"' in the markup */
+table {    
+	border-collapse: collapse;   
+	border-spacing: 0;
+}
+div.clearboth{
+	clear:both;
+}
+.blue_color{
+	color:#09F;
+}
+.black_color{
+	color:#000;
+}
+.white_color{
+	color:#FFF !important;
+}
+div.background_web{
+	background:url(../img/home/bg_top_16x190.jpg) repeat-x top left;
+}
+div.b1_webmain{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+div.b3_banner_head{
+	width:1000px;
+	height:150px;
+}
+
+/* start top menu */
+
+div.b3_menu_head{
+	width:1000px;
+	height:40px;
+	background:url(../img/home/bg_menu_1x40.jpg) repeat-x top left;
+	_margin-top:-3px;
+}
+.b4_head_topmenu {
+    width: 1000px;
+}
+.menusub1, .menusub1 ul {
+    list-style: none;
+    position: relative;
+    line-height: 30px;
+}
+.menusub1 a:link, .menusub1 a:active,
+.menusub1 a:visited {
+    display: block;
+    padding: 0px 15px;
+    border-right: 1px solid #FFF;
+    color: white;
+    text-decoration: none;
+}
+.menusub1 a:hover {
+    background: #00466f;
+    color: #FFF;
+}
+.menusub1 li {
+    float: left;
+    position: relative;
+}
+.menusub2 a:link, .menusub2 a:active,
+.menusub2 a:visited {
+	background-color:#00466f;
+    border-bottom: 1px solid #FFF;
+    border-right:1px solid #FFF;
+}
+.menusub2 a:hover {
+    background: #0071b2;
+}
+.menusub1 ul {
+    position: absolute;
+    width: 190px;
+    top: 30px;
+    display: none;
+}
+.menusub1 li ul a {
+    width:190px;
+    float: left;
+}
+
+.menusub1 ul ul {
+    top: auto;
+}
+
+.menusub1 li ul ul {
+    left: 190px;
+    margin: 0px 0 0 31px;
+}
+.menusub1 li:hover ul ul, 
+.menusub1 li:hover ul ul ul,
+.menusub1 li:hover ul ul ul ul {
+    display: none;
+}
+.menusub1 li:hover ul,
+.menusub1 li li:hover ul,
+.menusub1 li li li:hover ul,
+.menusub1 li li li li:hover ul {
+    display: block;
+}
+/* end top menu */
+
+/* start left menu
+div.b5_leftmenu_left ul{
+	width:200px;
+	float:left;
+}
+div.b5_leftmenu_left ul li a{
+	float:left;
+	padding:10px 10px 10px 20px;
+	margin-bottom:1px;
+	width:170px;
+	min-height:15px;
+	background:url(../img/home/icon_arrow.png) no-repeat 3px 13px;
+	background-color:#0071b2;
+	color:#FFF;
+}
+div.b5_leftmenu_left ul li ul a{
+	float:left;
+	padding:10px 10px 10px 20px;
+	margin-bottom:1px;
+	width:170px;
+	min-height:15px;
+	background:none;
+	background-color:#88c0e1;
+	color:#000;
+}
+div.b5_leftmenu_left ul li a:hover{
+	background:url(../img/home/icon_arrow2.png) no-repeat 3px 13px;
+	background-color:#00446f;
+	color:#FF0; 
+}
+.menu_header{
+	cursor:pointer;
+	}
+.menu_sub2{
+	display:none;
+}
+.menu_active  a.menu_header_text{
+	cursor:pointer; 
+}
+
+end left menu*/
+
+.b2_head_webmain{
+	position:relative;
+	z-index:1000;
+}
+
+div.b2_bodymain_webmain{
+	width:1000px;
+	margin-top:5px;
+}
+div.main_content{
+	float:left;
+	width:790px;
+}
+div.b3_leftbody_bodymain{
+	float:left;
+	width:570px;
+}
+
+/* start content page home */
+
+div.b4_image_leftbody{
+	padding-left:10px;
+	margin-bottom:5px;
+}
+div.b5_newscenter_content{
+	margin-left:10px;
+}
+div.b6_head_newscenter{
+	float:left;
+	width:560px;
+	height:26px;
+	_height:25px;
+	background-color:#007cc2;
+	padding-top:5px;
+}
+div.b6_head_newscenter a, div.b6_head_newscenter a:active, div.b6_head_newscenter a:visited {
+	
+	float:left;
+	margin-left:5px;
+	height:25px;
+	line-height:25px;
+	color:#FFF;
+	padding-left:15px;
+	padding-right:15px;
+	background-color:#007cc2;
+	border-left:1px solid #FFF;
+	border-right:1px solid #FFF;
+	border-top:1px solid #FFF;
+	
+}
+div.b6_head_newscenter a.selected, div.b6_head_newscenter a.selected:active, div.b6_head_newscenter a.selected:visited {
+	float:left;
+	background-color:#FFF;
+	height:25px;
+	line-height:25px;
+	color:#007cc2;
+	margin-left:5px;
+	padding-left:15px;
+	padding-right:15px;
+}
+div.b6_head_newscenter .title_choose{
+	float:left;
+	background-color:#FFF;
+	height:26px;
+	line-height:26px;
+	color:#007cc2;
+	margin-left:5px;
+	padding-left:15px;
+	padding-right:15px;
+	_border-bottom:1px solid #FFF;
+}
+div.b6_body_newscenter{
+	float:left;
+	width:558px;
+	border:1px solid #b4b4b4;
+	border-top:none;
+	padding-top:10px;
+	margin-bottom:5px;
+}
+div.b3_rightbody_bodymain{
+	width:210px;
+	float:right;
+}
+div.b4_left_rightbody{
+	float:left;
+	width:200px;
+	margin-left:10px;
+	_margin-left:5px;
+}
+div.b5_news_left{
+	margin-bottom:5px;
+	margin-top:5px;
+}
+div.b6_head_news{
+	width:200px;
+	line-height:25px;
+	margin-bottom:1px;
+	background-color:#007cc2;
+	color:#FFF;
+}
+div.b6_head_news a{
+	margin-left:10px;
+	margin-right:10px;
+	color:#FFF;
+}
+div.b6_head_news a:hover{
+	color:#FF0;
+}
+div.b6_body_news{
+	border:1px solid #b4b4b4;
+	padding-top:10px;
+	padding-right:5px;
+}
+div.b6_body_news ul li,
+div.b6_body_newscenter ul li{
+	margin-left:20px;
+	margin-bottom:10px;
+	list-style-type:square;
+}
+div.b6_body_news ul li a,
+div.b6_body_newscenter ul li a{
+	color:#000;
+}
+div.b6_body_news ul li a:hover,
+div.b6_body_newscenter ul li a:hover{
+	color:#09F;
+}
+/* end content page home */
+
+/* start content page listnews */
+.news_datetime{
+	color:#999;
+}
+.title_content{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#000;
+}
+div.b4_bannercenter_leftbody{
+	float:right;
+	width:560px;
+	margin-bottom:10px;
+}
+div.b4_news_leftbody{
+	margin-left:10px;
+}
+div.b5_head_news{
+	margin-left:10px;
+}
+div.b7_content_intronews h6{
+	margin-bottom:5px;
+	font-size:14px;
+}
+div.b7_content_intronews h6 a{
+	color:#09F;
+	margin-bottom:5px;
+}
+div.b7_content_intronews h6 a:hover{
+	color:#000;
+}
+div.b7_content_intronews img{
+	float:left;
+	margin:5px;
+}
+div.b7_file_intronews ul li{
+	list-style:square;
+	margin-left:30px;
+	margin-top:5px;
+	color:#09F;
+}
+div.b7_file_intronews ul li a{
+	color:#666;
+}
+div.b7_file_intronews ul li a:hover{
+	color:#000;
+}
+div.b7_file_intronews{
+	margin-top:10px;
+}
+div.morenews{
+	float:right;
+	line-height:25px;
+	padding-left:10px;
+	padding-right:10px;
+	background-color:#09F;
+}
+div.morenews a{
+	color:#FFF;
+}
+div.morenews a:hover{
+	color:#000;
+}
+div.pagging a{
+	border:1px solid #999;
+	padding:2px 5px 2px 5px;
+	color:#666;
+}
+div.pagging a:hover{
+	color:#000;
+}
+/* end content page listnews */
+
+div.b4_right_rightbody{
+	float:right;
+	width:200px;
+	margin-right:10px;
+	_margin-right:5px;
+}
+div.b5_shortcut_right{
+	margin-top:10px;
+}
+div.b6_body_search{
+	overflow:auto;
+	padding-bottom:10px;
+	border-bottom:1px dotted #666;
+}
+div.b6_body_search input{
+	float:left;
+	width:170px;
+}
+div.b6_body_search .search{
+	float:left;
+	width:20px;
+	height:20px;
+	border:none;
+	background:url(../img/home/icon_search_24x24.png) no-repeat top left;
+	cursor:pointer;
+}
+div.b6_head_search p{
+	width:200px;
+	line-height:25px;
+	font-size:16px;
+	color:#007cc2;
+}
+
+div.b6_head_shortcut p{
+	width:200px;
+	line-height:25px;
+	font-size:16px;
+	color:#007cc2;
+	border-bottom:1px dotted #666;
+}
+div.b6_body_shortcut ul{
+	list-style:square;
+	margin-left:20px;
+	color:#007cc2;
+}
+div.b6_body_shortcut ul li{
+	margin:5px 0 5px 0;
+}
+div.b6_body_shortcut ul li a{
+	color:#333;
+	font-weight:bold;
+}
+div.b6_body_shortcut ul li a:hover{
+	color:#007cc2;
+}
+div.b2_foot_webmain{
+	float:left;
+	margin-top:10px;
+	width:100%;
+	height:100px;
+	background-color:#008800;
+	/*background:url(../img/home/bg_foot_16x100.jpg) repeat-x top left;*/
+}
+div.foot_text{
+	float:left;
+}
+div.foot_data{
+	float:right;
+	width:220px;
+}
+div.b2_foot_webmain p{
+	margin-top:25px;
+	margin-left:20px;
+}
+/*
+	menu left
+*/
+
+.sidebarmenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+width: 200px; /* Main Menu Item widths */
+border-bottom: 1px solid #ccc;
+}
+ 
+.sidebarmenu ul li{
+position: relative;
+}
+
+/* Top level menu links style */
+.sidebarmenu ul li a{
+display: block;
+overflow: auto; /*force hasLayout in IE7 */
+color: #FFFF00;
+text-decoration: none;
+padding: 6px;
+border-bottom: 1px solid #fff;
+border-right: 1px solid #fff;
+line-height:22px;
+}
+
+.sidebarmenu ul li a:link, .sidebarmenu ul li a:visited, .sidebarmenu ul li a:active{
+background-color: #080; /*background of tabs (default state)*/
+}
+
+.sidebarmenu ul li a:visited{
+color: #ffff00;
+}
+
+.sidebarmenu ul li a:hover{
+background-color: #060;
+}
+
+/*Sub level menu items */
+.sidebarmenu ul li ul{
+position: absolute;
+width: 240px; /*Sub Menu Items width */
+top: 0;
+visibility: hidden;
+z-index:2000;
+}
+.sidebarmenu ul li ul li a{
+background-color:#008800 !important;
+color:#FF0 !important;
+}
+.sidebarmenu ul li ul li a:hover{
+background-color:#006600 !important;
+}
+.sidebarmenu a.subfolderstyle{
+background: url(../img/home/right.gif) no-repeat 97% 50%;
+}
+
+ 
+/* Holly Hack for IE \*/
+* html .sidebarmenu ul li { float: left; height: 1%; }
+* html .sidebarmenu ul li a { height: 1%; }
+/* End */

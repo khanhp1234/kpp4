@@ -1,0 +1,30 @@
+// JavaScript Document
+    $(document).ready(function() {
+		$(".menu_active").find(".menu_sub2").css("display","block");
+		$(".menu_header_text").click(function(){
+				$(this).removeAttr("href");
+				$(".menu_header").removeClass("menu_active");
+				$(this).parent("li").addClass("menu_active");
+				
+				if( $(this).parent("li").find(".menu_sub2").css("display")=="none")
+				{
+					$(".menu_sub2").slideUp('fast', function() {
+						// Animation complete.
+					  });
+					$(this).parent("li").find(".menu_sub2").slideDown('fast', function() {
+					  // Animation complete.
+					});
+				}
+			});
+			/*
+		    $('#clock').countdown('2016/10/31').on('update.countdown', function(event) {
+			  var $this = $(this).html(event.strftime(''
+				+ '</span><span class="week">%-w</span> Tuần '
+				+ '<span class="day">%-d</span> Ngày '
+				+ '<span class="hr">%H</span> Giờ '
+				+ '<span class="min">%M</span> Phút '
+				+ '<span class="sec">%S</span> Giây'));
+			});
+			*/
+    });
+
